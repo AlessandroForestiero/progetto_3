@@ -1,4 +1,4 @@
-package it.epicode.entities;
+/*package it.epicode.entities;
 import it.epicode.dao.ArticoloCartaceoDAO;
 import it.epicode.dao.PrestitoDAO;
 import it.epicode.dao.UtenteDAO;
@@ -40,4 +40,4 @@ public class NewArchivio {
             return prestitoDAO;
         }
     }
-}
+}*/

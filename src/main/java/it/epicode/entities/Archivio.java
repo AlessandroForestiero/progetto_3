@@ -1,4 +1,4 @@
-package it.epicode.entities;
+/*package it.epicode.entities;
 
 
 import java.io.*;
@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class Archivio {
-    Map<String, ArticoloCartaceo> articoloCartaceoMap = new HashMap<>();
+    Map<Integer, ArticoloCartaceo> articoloCartaceoMap = new HashMap<>();
 
     public Archivio() {
 
@@ -84,4 +84,4 @@ public class Archivio {
     public String toString() {
         return this.articoloCartaceoMap.toString();
     }
-}
+}*/

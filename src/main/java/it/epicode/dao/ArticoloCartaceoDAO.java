@@ -17,9 +17,11 @@ public class ArticoloCartaceoDAO {
     }
 
     public void aggiungiElementoCatalogo(ArticoloCartaceo elemento) {
-        entityManager.getTransaction().begin();
-        entityManager.persist(elemento);
-        entityManager.getTransaction().commit();
+        EntityManager em = entityManagerFactory.createEntityManager();
+        em.getTransaction().begin();
+        em.persist(elemento);
+        em.getTransaction().commit();
+        em.close();
     }
 
     public void rimuoviElementoPerISBN(String isbn) {

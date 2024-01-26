@@ -16,7 +16,10 @@ public class Libro extends ArticoloCartaceo {
         this.genere = genere;
     }
 
-      @Override
+    public Libro() {
+    }
+
+    @Override
     public String toString() {
         return  "isbn: " + this.getIsbn()+
                 " titolo: " + this.getTitolo() +

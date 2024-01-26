@@ -6,8 +6,9 @@ import jakarta.persistence.*;
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class ArticoloCartaceo {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "isbn", columnDefinition = "INTEGER USING isbn::INTEGER")
     private String isbn;
+
     private String titolo;
     @Column(name = "anno_pubblicazione")
     private int annoPubblicazione;
@@ -19,6 +20,10 @@ public abstract class ArticoloCartaceo {
         this.annoPubblicazione = annoPubblicazione;
         this.numeroPagine = numeroPagine;
     }
+
+    public ArticoloCartaceo() {
+    }
+
     public String getIsbn() {
         return isbn;
     }
