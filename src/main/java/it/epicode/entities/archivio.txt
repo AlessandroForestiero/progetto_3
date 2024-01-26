@@ -1,0 +1,18 @@
+11@cioe@2000@30@SETTIMANALE
+12@famiglia cristiana@1990@30@SETTIMANALE
+13@al volante@1980@30@SETTIMANALE
+14@quattro ruote@1908@30@SEMESTRALE
+15@Chi@1888@30@SEMESTRALE
+16@donna moderna@1188@30@MENSILE
+17@corriere dello sport@1880@30@MENSILE
+00000@provaAggiunto@3000@999@prova@prova
+1@il signore degli anelli@2000@500@tolkien@fantasy
+2@1984@1990@500@tolkien@fantasy
+3@il piccolo principe@1980@500@antonio@fantasy
+4@orgoglio e pregiudizio@2005@500@giovanni@fantasy
+5@il codice da vinci@2012@500@maruko@fantasy
+6@il trono di spade@2015@500@conte@fantasy
+7@norwegian@2020@500@trabol@fantasy
+8@sapiens@2000@500@pisca@fantasy
+9@harry potter@2006@500@oracolo@fantasy
+10@focus@1988@30@SETTIMANALE
